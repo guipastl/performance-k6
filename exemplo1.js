@@ -18,4 +18,3 @@ export default function(){
         'status code 200': (r) => r.status === 200
     });
 }
-
