@@ -1,0 +1,13 @@
+name: K6 load teste
+on: [push]
+jobs:
+  build: K6 load teste
+  runs-on: ubuntu-latest
+  steps:
+    - name: step 1 - checkout
+      uses: actions/checkout@v3
+
+    - name: step 2 - run k6 load test
+      uses: grafana/k6-action@v0.3.0
+      with:
+        filename: bonus3.js
