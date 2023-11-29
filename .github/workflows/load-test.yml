@@ -1,6 +1,6 @@
 name: K6 load teste
 on: [push]
-permisions:
+permissions:
   contents: write
 jobs:
   build:
