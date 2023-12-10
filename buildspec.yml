@@ -8,7 +8,7 @@ phases:
   build:
     commands:
       - echo Run performance test
-      - docker run -i grafana/k6 run - <bonus3.js
+      - docker run -i grafana/k6 run - <bonus4_2.js
   post_build:
     commands:
       - echo Performance test complete
